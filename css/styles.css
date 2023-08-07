@@ -100,15 +100,12 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation {
   display: flex;
   align-items: center;
-}
-
-.header-logo {
-  margin-right: 130px;
 }
 
 .header-list {
@@ -146,7 +143,6 @@ ul {
 .header-contact {
   display: flex;
   align-items: center;
-  margin-left: auto;
   gap: 40px;
 }
 
@@ -242,7 +238,7 @@ ul {
 
 .criteria-list {
   display: flex;
-  gap: 24px;
+  gap: 22px;
 }
 
 .section {
@@ -257,17 +253,17 @@ ul {
   padding: 32px 0;
 }
 
-.section-three {
+.section-no-top-padding {
   background-color: var(--white);
   padding-top: 0;
 }
 
 .section-three-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
-.section-four {
+.section-grey {
   background-color: var(--cloud);
 }
 
@@ -312,7 +308,7 @@ ul {
 
 .footer-bottom {
   color: var(--cloud);
-  margin-top: 8px;
+  margin-top: 17.5px;
 }
 
 .footer-container {
